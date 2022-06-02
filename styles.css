@@ -6,12 +6,16 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
+/* body{
+    overflow-x: hidden;
+} */
 
 /* Mobile Styles */
+/* Home Section */
 #home{
-    height: 100vh;
     background-image: url(assets/images/banner-bg.svg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 }
 /* Menu Bar */  
@@ -141,6 +145,7 @@
     max-width: 100%;
 }
 .brands__container{
+    margin-bottom: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -173,3 +178,81 @@
     width: 50%;
     margin: 0 auto;
 } */
+
+
+/* Features Section */
+#features{
+    padding: 2rem 20px;
+}
+.features__header{
+    /* width: 90%;
+    margin: 0 auto; */
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 5rem;
+}
+.header__border{
+    height: 5px;
+    width: 150px;
+    background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.features__heading{
+    font-weight: 300;
+}
+.features__heading span{
+    font-weight: 700;
+}
+.features__cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features__card {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 5px 20px 0px rgba(112, 112, 112, 0.3)
+}
+
+.features__card div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.features__icon{
+    position: absolute;
+    margin-left: -10px;
+    font-size: 2rem;
+    color: #fff;
+}
+.features__card__title{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.features__card__desc{
+    font-size: 90%;
+    width: 80%;
+    margin: 0 auto;
+    color: #6A6972;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.features__card__button{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.features__card__button span{
+    font-weight: 400;
+    font-size: 90%;
+    margin-right: 5px;
+}
