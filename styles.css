@@ -20,6 +20,18 @@
 		padding: 4rem 2rem;
 	}
 }
+
+@media screen and (min-width: 1200px) {
+	#features,
+	#about,
+	#why {
+        max-width: 1200px;
+        margin: 0 auto;
+		padding: 4rem 2rem;
+	}
+}
+
+
 /* Mobile Styles */
 
 /* -----Home Section Begins----- */
@@ -59,7 +71,10 @@
 }
 
 /* Menu Bar */
-.navbar {
+.navbar{
+    width: 100%;
+}
+.navbar__container {
 	background-color: transparent;
 	padding: 1.7rem 15px;
 	display: flex;
@@ -103,8 +118,11 @@
 .nav__links__container {
 	position: relative;
 }
-.navbar__links {
+.__container__links {
 	display: none;
+}
+.navbar__links{
+    display: none;
 }
 .navbar__links a {
 	color: #fff;
@@ -212,7 +230,7 @@
 }
 
 @media screen and (min-width: 768px) {
-	.navbar {
+	.navbar__container {
 		padding: 1.7rem 1rem;
 	}
 	.nav__logo {
@@ -245,6 +263,10 @@
 	.menu__bar {
 		display: none;
 	}
+    .navbar{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }
 
 /* ------Features Section------ */
