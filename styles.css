@@ -319,3 +319,35 @@
 .why__image__container img{
     width: 100%;
 }
+.about__facts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    /* margin: 0 auto; */
+}
+.about__fact__card{
+    color: #fff;
+    border-radius: 45%;
+    padding: 1rem;
+    font-size: 80%;
+    text-align: center;
+    transform: rotate(-30deg);
+    width: 100px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about__fact__card:nth-child(1){
+    background: linear-gradient(#33c8c1 0%, #119bd2 100%);
+}
+.about__fact__card:nth-child(2){
+    background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+}
+.about__fact__card:nth-child(3){
+    background: linear-gradient(#361cc1 0%, #2e82ef 100%);
+}
+
+.about__fact__card p{
+    font-size: 1.3em;
+}
