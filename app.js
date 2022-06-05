@@ -7,6 +7,7 @@ menuBar.addEventListener("click", ()=>{
     navLinks.classList.toggle("active")
 })
 window.addEventListener("scroll", ()=>{
+    const pageHeight = window.scrollY
     if(pageHeight > 150){
         navbar.classList.add("fixed")
     }else if(pageHeight < 150){
