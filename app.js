@@ -17,7 +17,7 @@ navMenuLinks.forEach((link) =>{
     })
 })
 
-// Smooth scroll to pages
+// Adding Fixed navbar
 window.addEventListener("scroll", ()=>{
     const pageHeight = window.scrollY
     if(pageHeight > 150){
