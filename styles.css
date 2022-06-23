@@ -115,6 +115,7 @@ html {
 	margin-left: 1rem;
 	color: #fff;
 	display: none;
+	cursor: pointer;
 	transition: all 0.5s ease;
 }
 
@@ -229,6 +230,7 @@ html {
 	border-radius: 7px;
 	width: fit-content;
 	color: #fff;
+	cursor: pointer;
 	transition: all 0.5s ease;
 }
 
@@ -466,6 +468,7 @@ html {
 	border-radius: 7px;
 	width: fit-content;
 	color: #fff;
+	cursor: pointer;
 	transition: all 0.5s ease;
 }
 
